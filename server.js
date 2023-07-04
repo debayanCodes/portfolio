@@ -1,7 +1,7 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
-const port = 3000; // Change this port number if needed
+const port = process.env.PORT || 3000; // Change this port number if needed
 
 // Serve static files from the "public" directory
 app.use(express.static('public'));
