@@ -16,13 +16,6 @@ build/
 logs/
 *.log
 
-# Dependency lock files
-package-lock.json
-yarn.lock
-
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Netlify build output
-netlify.toml
