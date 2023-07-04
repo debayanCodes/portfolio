@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debayan Paul - Portfolio</title>
+    <link rel="icon" href="portfolio.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        #about {
+            text-align: justify;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        .custom-font {
+            font-family: 'Satify', cursive;
+            font-size: 17px;
+            line-height: 1.5;
+        }
+
+        .about-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .about-img img {
+            width: 170px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            /* Light gray */
+            color: #212529;
+            /* Black */
+        }
+
+        .navbar {
+            background-color: #343a40;
+            /* Dark gray */
+        }
+
+        .navbar-brand {
+            color: #ffffff;
+            /* White */
+        }
+
+        .nav-link {
+            color: #ffffff;
+            /* White */
+        }
+
+        .footer {
+            background-color: #343a40;
+            /* Dark gray */
+            color: #ffffff;
+            /* White */
+            text-align: center;
+            padding: 6px 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><b>DEBAYAN PAUL</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="about">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-img">
+                        <img src="Picture.jpeg" class="img-fluid rounded-circle" alt="Debayan Paul"
+                            style="width: 170px; height: 200px;">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h2><span class="typed-element"></span></h2>
+                    <p class="custom-font">
+                        Welcome to my portfolio! I enjoy creating user-friendly and visually appealing websites. I have
+                        created a lot of websites as per requests of clients, some of whom as been linked below. Feel
+                        free to explore my portfolio and get in touch with me!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="skills" class="mt-5">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Web Development</h4>
+                    <ul class="custom-font">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Express</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Programming Languages</h4>
+                    <ul class="custom-font">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Bash</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Microsoft Office Suite</h4>
+                    <ul class="custom-font">
+                        <li>Word</li>
+                        <li>Excel</li>
+                        <li>Powerpoint</li>
+                        <li>Access</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Others</h4>
+                    <ul class="custom-font">
+                        <li>SQL</li>
+                        <li>Computer Formatting</li>
+                        <li>Hardware Troubleshooting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="projects" class="mt-5">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="Project1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cloud Kitchen Website</h5>
+                            <p class="card-text custom-font">Static cloud kitchen website as per client's need.</p>
+                            <a href="https://queensgalley.netlify.app/" target="_blank" class="btn btn-primary">Visit
+                                Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="Project2.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">News Website</h5>
+                            <p class="card-text custom-font">Displays news fetched by NewsAPI.</p>
+                            <a href="https://daily-planet.onrender.com/" target="_blank" class="btn btn-primary">Visit
+                                Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact" class="mt-5">
+            <h2>Contact Me</h2>
+            <form id="contactForm" method="POST" action="/contact">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="container">
+            &copy; 2023 Debayan Paul. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <script>
+        var typed = new Typed('.typed-element', {
+            strings: ["Web Developer", "NodeJS Developer", "Fullstack Developer"],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+    
+</body>
+
+</html>

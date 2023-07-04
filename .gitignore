@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Netlify build output
+netlify.toml
