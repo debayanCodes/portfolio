@@ -39,7 +39,7 @@ app.post('/contact', (req, res) => {
       console.log('Email sent:', info.response);
       res.send(`
         <script>
-          alert('Thank you for your message. We will get back to you soon.');
+          alert('Thank you for your message.');
           window.location.href = '/';
         </script>
       `);
